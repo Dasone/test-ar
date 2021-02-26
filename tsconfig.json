@@ -10,11 +10,17 @@
     "experimentalDecorators": true,
     "moduleResolution": "node",
     "importHelpers": true,
-    "target": "es2015",
+    "target": "ES5",
     "module": "es2020",
     "lib": [
       "es2018",
-      "dom"
+      "dom",
+    ],
+    "types": [
+      "babylonjs",
+      "babylonjs-gui",
+      "babylonjs-materials",
+      "babylonjs-viewer"
     ]
   },
   "angularCompilerOptions": {
