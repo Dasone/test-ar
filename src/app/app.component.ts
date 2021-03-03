@@ -1,6 +1,3 @@
-// http-server -S -C ../cert.pem -K ../key.pem
-
-
 import {Component, ElementRef, OnInit, ViewChild} from '@angular/core';
 
 

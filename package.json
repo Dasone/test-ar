@@ -7,7 +7,8 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "start:host": "http-server ./dist/test-ar -S -C ./cert/cert.pem -K ./cert/key.pem"
   },
   "private": true,
   "dependencies": {
